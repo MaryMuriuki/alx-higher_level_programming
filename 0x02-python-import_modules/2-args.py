@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    from sys import argv
+    import sys
     dig = len(sys.argv)
     if dig == 1:
         print("{} arguments.".format(dig - 1))
